@@ -1,0 +1,38 @@
+{
+    "name": "yandere",
+    "version": "1.0.0",
+    "description": "Javascript/Typescript library that provides browser- and Observable-friendly error wrappers, inspired by verror.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "directories": {
+        "lib": "lib",
+        "test": "test"
+    },
+    "devDependencies": {
+        "chai": "^4.1.2",
+        "mocha": "^5.2.0",
+        "typescript": "^3.0.1"
+    },
+    "scripts": {
+        "build": "tsc",
+        "test": "mocha --reporter spec"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AlexHankins/yandere.git"
+    },
+    "keywords": [
+        "Why",
+        "yonder",
+        "yanderror",
+        "yonderror",
+        "YError",
+        "verror"
+    ],
+    "author": "Alex Hankins",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/AlexHankins/yandere/issues"
+    },
+    "homepage": "https://github.com/AlexHankins/yandere#readme"
+}
